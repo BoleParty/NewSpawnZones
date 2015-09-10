@@ -1,0 +1,153 @@
+/*
+SafeZoneScript By Friendly
+Edit For:
+New Central/ East/ West Spawns
+By
+BoleParty
+*/
+
+Download and unpack epoch.altis.pbo.
+
+Open mission.sqm with Notepad++ or any other editor.
+
+Replace your Class Markers with following code:
+
+class Markers
+	{
+		items=9;
+		class Item0
+		{
+			position[]={14939.9,0.053499099,15083.3};
+			name="center";
+			type="Empty";
+		};
+		class Item1
+		{
+			position[]={23600.6,3.1900001,18000.699};
+			name="respawn_east";
+			type="Empty";
+		};
+		class Item2
+		{
+			position[]={23600.6,3.1900001,18000.801};
+			name="respawn_west";
+			type="Empty";
+		};
+		class Item3
+		{
+			position[]={5547.7158,28.918058,15087.442};
+			name="westsafezone";
+			text="Safe Zone";
+			type="mil_flag";
+			colorName="ColorRed";
+		};
+		class Item4
+		{
+			position[]={12163.468,11.688451,13963.256};
+			name="centralspawn";
+			markerType="ELLIPSE";
+			type="Empty";
+			colorName="ColorGreen";
+			fillName="Grid";
+			a=250;
+			b=250;
+		};
+		class Item5
+		{
+			position[]={12188.089,11.670382,13980.286};
+			name="centralsafezone";
+			text="Safe Zone";
+			type="mil_flag";
+			colorName="ColorRed";
+		};
+		class Item6
+		{
+			position[]={20697.811,35.599998,16610.785};
+			name="eastspawn";
+			markerType="ELLIPSE";
+			type="Empty";
+			colorName="ColorGreen";
+			fillName="Grid";
+			a=250;
+			b=250;
+		};
+		class Item7
+		{
+			position[]={20725.635,35.834557,16643.596};
+			name="eastsafezone";
+			text="Safe Zone";
+			type="mil_flag";
+			colorName="ColorRed";
+		};
+		class Item8
+		{
+			position[]={5474.0078,27.299999,14998.054};
+			name="westspawn";
+			markerType="ELLIPSE";
+			type="Empty";
+			colorName="ColorGreen";
+			fillName="Grid";
+			a=250;
+			b=250;
+		};
+	};
+	class Sensors
+	{
+		items=3;
+		class Item0
+		{
+			position[]={20698.213,35.599998,16610.73};
+			a=250;
+			b=250;
+			activationBy="ANY";
+			repeating=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="eastsafezone";
+			expCond="(player distance eastsafezone) < 250;";
+			expActiv="hint ""You Entered A Safe Zone -  Acts Of War Are Strictly Forbidden"";  inSafeZone = true;";
+			expDesactiv="hint ""You Are Leaving The Safe Zone!""; inSafeZone = false;";
+			class Effects
+			{
+			};
+		};
+		class Item1
+		{
+			position[]={5474.2656,27.299999,14998.239};
+			a=250;
+			b=250;
+			activationBy="ANY";
+			repeating=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="westsafezone";
+			expCond="(player distance westsafezone) < 250;";
+			expActiv="hint ""You Entered A Safe Zone -  Acts Of War Are Strictly Forbidden""; inSafeZone = true;";
+			expDesactiv="hint ""You Are Leaving The Safe Zone!inSafeZone = false;";
+			class Effects
+			{
+			};
+		};
+		class Item2
+		{
+			position[]={12163.389,11.688736,13963.279};
+			a=250;
+			b=250;
+			activationBy="ANY";
+			repeating=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="centralsafezone";
+			expCond="(player distance centralsafezone) < 250;";
+			expActiv="hint ""You Entered A Safe Zone - Acts Of War Are Strictly Forbidden""; inSafeZone = true;";
+			expDesactiv="hint ""You Are Leaving The Safe Zone!""; inSafeZone = false;";
+			class Effects
+			{
+			};
+		};
+	};
+	
+Save your edits, repack your mission file and upload to arma3\mpmissions.
+
+Regards
+BoleParty
