@@ -20,7 +20,8 @@ class Mission
  "A3_Data_F_Curator_Virtual"
  };
  addOnsAuto[] = 
- {"A3_epoch_config",
+ {
+ "A3_epoch_config",
  "a3_map_altis"
  };
  randomSeed = 12032465;
