@@ -9,8 +9,7 @@ BoleParty
 
 Here you got new Central/ East/ West Spawns.
 
-The standard Epoch spawns and spawn traders have been removed and replaced with these
-new spawns and traders.
+I removed the standard Epoch spawns and static traders within the spawns and and replaced everything with new spawns and traders.
 
 By default the spawns have a small safe zone included but to expand these i attached Friendlys "Extended Safe Zone Script".
 
@@ -18,7 +17,7 @@ By default the spawns have a small safe zone included but to expand these i atta
 Instructions:
 
 
-No changes/edits done to altis.h use this option:
+No own changes/edits done to altis.h use this option:
 
 
 - download a3_epoch_server_settings.pbo (being located in @epochhive\addons).
