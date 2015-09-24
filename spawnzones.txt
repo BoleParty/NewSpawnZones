@@ -1347,7 +1347,7 @@ BoleParty
     {"ProtectionZone_Invisible_F",{20749.4,16490.9,0},0,true},
     {"ProtectionZone_Invisible_F",{20725.5,16505.1,0},0,true},
     {"ProtectionZone_Invisible_F",{20741.6,16516,0},0,true},
-    {"ProtectionZone_Invisible_F",{20759.3,16538.2,0},0,true},
+    {"ProtectionZone_Invisible_F",{20759.3,16538.2,0},0,true}
 	
 Save your edits and repack a3_epoch_server_settings to a pbo. Upload to your server into @epochhive\addons.
 
