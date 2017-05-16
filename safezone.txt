@@ -105,8 +105,8 @@ class Markers
 			age="UNKNOWN";
 			name="eastsafezone";
 			expCond="(player distance eastsafezone) < 250;";
-			expActiv="hint ""You Entered A Safe Zone -  Acts Of War Are Strictly Forbidden"";  inSafeZone = true;";
-			expDesactiv="hint ""You Are Leaving The Safe Zone!""; inSafeZone = false;";
+			expActiv="hint ""YOU ENTERED A SAFE ZONE - ACTS OF WAR ARE STRICTLY FORBIDDEN"";  inSafeZone = true;";
+			expDesactiv="hint ""You are leaving the safe zone!""; inSafeZone = false;";
 			class Effects
 			{
 			};
@@ -122,8 +122,8 @@ class Markers
 			age="UNKNOWN";
 			name="westsafezone";
 			expCond="(player distance westsafezone) < 250;";
-			expActiv="hint ""You Entered A Safe Zone -  Acts Of War Are Strictly Forbidden""; inSafeZone = true;";
-			expDesactiv="hint ""You Are Leaving The Safe Zone!inSafeZone = false;";
+			expActiv="hint ""YOU ENTERED A SAFE ZONE - ACTS OF WAR ARE STRICTLY FORBIDDEN""; inSafeZone = true;";
+			expDesactiv="hint ""You are leaving the safe zone!""; inSafeZone = false;";
 			class Effects
 			{
 			};
@@ -139,8 +139,8 @@ class Markers
 			age="UNKNOWN";
 			name="centralsafezone";
 			expCond="(player distance centralsafezone) < 250;";
-			expActiv="hint ""You Entered A Safe Zone - Acts Of War Are Strictly Forbidden""; inSafeZone = true;";
-			expDesactiv="hint ""You Are Leaving The Safe Zone!""; inSafeZone = false;";
+			expActiv="hint ""YOU ENTERED A SAFE ZONE - ACTS OF WAR ARE STRICTLY FORBIDDEN""; inSafeZone = true;";
+			expDesactiv="hint ""You are leaving the safe zone!""; inSafeZone = false;";
 			class Effects
 			{
 			};
